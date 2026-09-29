@@ -75,3 +75,29 @@ html,body{max-width:100%;overflow-x:clip}.logo-mark{width:40px;height:40px;displ
   .work-card-copy{padding:7px 8px!important}
   .work-card-copy h3{font-size:11px!important;margin-right:16px!important}
 }
+
+
+/* Temporary portfolio state: keep project markup in source, but hide it until real case studies are ready. */
+.is-temporarily-hidden{display:none!important}
+
+.showreel-note{
+  max-width:920px;
+  margin:22px auto 0;
+  color:rgba(222,228,229,.74);
+  font-size:14px;
+  line-height:1.65;
+  text-align:center;
+  letter-spacing:.005em;
+}
+.hero + .about{margin-top:72px}
+
+@media(max-width:700px){
+  .showreel-note{
+    margin-top:18px;
+    max-width:100%;
+    font-size:13px;
+    line-height:1.58;
+    text-align:left;
+  }
+  .hero + .about{margin-top:52px}
+}
